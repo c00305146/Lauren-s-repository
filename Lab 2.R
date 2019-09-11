@@ -44,3 +44,19 @@ switchero.if.then=function(x){
     "Cheeta"
   }
 switchero.if.then("b")
+
+load("fish_data.Rdata")
+nrow(fish)
+ncol(fish)
+str(fish$year)
+str(fish)
+#chr is a data type that has letters within it, Factor is a data type that has levels within it
+#num is a data tyoe of numbers which can have decimals or be integers, POSIXct is a data type that represents a date and time
+#int is a data type that can only have whole numbers
+as.character(fish$area_fac)
+str(fish$area_fac)
+fish$area_char<-as.character(fish$area_fac)
+str(fish$area_char)
+fish$avg.DNE.m=NULL
+str(fish)
+

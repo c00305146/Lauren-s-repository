@@ -45,3 +45,9 @@ s=    "lion"
     "tiger"
 }
 animal="a"
+m="lemon"
+n=c(1L,2L,3L)
+o=c(25,27,29)
+str(o)
+p=c(0,1,0,0,1,0)
+as.factor(p)

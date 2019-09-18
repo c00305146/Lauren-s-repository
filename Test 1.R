@@ -21,7 +21,7 @@ b%/%e
 #%/% is doing intergal division
 '%myop%'=function(x,y){2/x+3*y}
 7%myop%2
-i<-26
+26->i
 j=50;k=23;l=5
 j
 k
@@ -34,3 +34,14 @@ l
 #NA is a placement for a number that is not known
 length(a)=12
 a
+animals=function(x){
+  if(x=="a")
+s=    "lion"
+  else if(x=="b")
+    "bear"
+  else if(x=="c")
+    "fish"
+  else
+    "tiger"
+}
+animal="a"

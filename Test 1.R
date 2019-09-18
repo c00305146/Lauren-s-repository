@@ -51,3 +51,12 @@ o=c(25,27,29)
 str(o)
 p=c(0,1,0,0,1,0)
 as.factor(p)
+a.ray=array(1:24,dim =c(4,3,2))
+a.ray
+m=matrix(1:10)
+dim(m)=c(5,2)
+m
+#an array has levels while a matrix does not have levels
+t=m[4,1]
+q=a.ray[2,2,2]
+q
